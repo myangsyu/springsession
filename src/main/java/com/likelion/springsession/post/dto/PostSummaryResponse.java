@@ -11,6 +11,7 @@ import lombok.RequiredArgsConstructor;
 public class PostSummaryResponse {
     private final Long id;
     private final String title;
+    private final String authorNickname;
     private final LocalDateTime createdAt;
 
 }
